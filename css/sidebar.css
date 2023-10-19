@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
+}
+
+
+.sidebar{
+    position: fixed;
+    left: -225%;
+    width: 250px;
+    height: 100%;
+    background: #042331;
+    transition: all .5s ease;
+}
+
+
+.sidebar header{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    line-height: 70px;
+    background: #2c3688;
+}
+
+.sidebar ul li a{
+    display: block;
+    font-size: 25px;
+    color: #fff;
+    padding-left: 40px;
+    line-height: 65px;
+    border-top: 1px solid rgba(255, 255, 255, .02);
+    border-bottom: 1px solid #000;
+    transition: all .5s;
+}
+
+.sidebar ul li:hover a{
+    padding-left: 50px;
+}
+
+.sidebar ul li a i{
+    margin-right: 16px;
+}
+
+#check{
+    display: none;
+}
+
+label #btn , label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background: #042331;
+    border-radius: 3px;
+}
+
+
+label #btn{
+    font-size: 30px;
+    top: 25px;
+    left: 40px;
+    color: #fff;
+    padding: 6px 12px;
+    transition: all .5s ease;
+}
+
+label #cancel{
+    z-index: 1111;
+    font-size: 25px;
+    top: 17px;
+    left: -195px;
+    color: #2c3688;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+
+
+#check:checked ~ .sidebar{
+    left: 0px;
+}
+
+#check:checked ~ label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked ~ label #cancel{
+    left: 195px;
+}
+
+section{
+    background: url('../dogs.png.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}

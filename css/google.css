@@ -1,0 +1,180 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #fff;
+}
+
+.logo{
+    width: 100px;
+}
+
+.main{
+    width: 100%;
+}
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #d5d2d2;
+    width: 750px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+h3{
+    position: relative;
+    margin: -20px 0 0 13px;
+    font-size: 23px;
+    font-weight: 30;
+    font-family:serif;
+    letter-spacing: 1px;
+}
+
+input{
+    border: 1px solid #d5d2d2;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 5px;
+}
+
+input:focus{
+    border: 1.5px solid #1f52f9;
+}
+
+.name{
+    display: inline-block;
+}
+
+input[type="name"]{
+    display: block;
+    margin: 30px 0 0 10px;
+}
+
+input[type="username"]{
+    display: block;
+    margin: 10px 0 0 10px;
+    width: 400px;
+}
+
+.gmail{
+    position: relative;
+    display: block;
+    top: -47px;
+    left: 330px;
+    font-family: serif;
+    font-size: 15px;
+    color: #333;
+    cursor: default;
+}
+
+.pass{
+    display: inline-block;
+    
+}
+
+.password{
+    display: block;
+    width: 179px;
+    margin: 0 5px 0 10px;
+}
+
+a{
+    display: block;
+    position: relative;
+    font-family: sans-serif;
+    text-decoration-line: none;
+}
+
+.line1{
+    font-size: 12px;
+    margin: -30px 0 0 15px;
+}
+
+.line2{
+    font-size: 15px;
+    margin: 20px 0 40px 15px;
+    color: #1144ed;
+}
+
+.line3{
+   font-size: 12px;
+   margin: -10px 0 0 15px;
+   width: 310px;
+}
+
+.line4{
+    display: inline-block;
+    font-size: 15px;
+    margin: 20px 8px;
+    color: #4971f6;
+    
+}
+
+input[type="submit"]{
+    background: #4971f6;
+    border: none;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 15px;
+    margin: 40px 0 30px 180px;
+}
+
+input[type="submit"]:hover{
+   background: #254fdb;
+}
+
+label{
+    position: relative;
+    top: -28px;
+    left: 20px;
+    font-family:serif;
+    font-size: 15px;
+    color: #555;
+    pointer-events: none;
+    transition: .2s all;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+    top: -48px;
+    left: 15px;
+    background: #fff;
+    padding: 0 5px;
+    font-size: 10px;
+    color: #1f52f9;
+}
+
+.side-image{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 50%;
+    transform: translate(50%, 50%);
+
+}
+
+.side-logo{
+    width: 220px;
+    height: 240px;
+    display: block;
+}
+
+.acc{
+    position: absolute;
+    display: block;
+    top: 246px;
+    left: 0px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.word{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
